@@ -106,11 +106,11 @@ datasets = [
 campaigns_available = {}
 
 
+campaigns_available_demo = {}
 
 
 
-
-campaigns_available['teste'] = {
+campaigns_available_demo['teste'] = {
     'classifier': DEFAULT_CLASSIFIER,
     'model_type': ['adversarial'],
     'number_samples_per_class': ['0:100,1:100'],
@@ -159,7 +159,7 @@ campaigns_available['adversarial'] = {
     'adversarial_smoothing_rate': [0.15]
 }
 # === Adversarial Campaign ===
-campaigns_available['adversarial_demo'] = {
+campaigns_available_demo['adversarial_demo'] = {
     'classifier': DEFAULT_CLASSIFIER,
     'model_type': ['adversarial'],
     'number_samples_per_class': [SAMPLES],
