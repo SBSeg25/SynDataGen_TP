@@ -11,7 +11,7 @@ This repository contains the official implementation of SynDataGen, an open-sour
 
  
 - [📖 Overview/ Informações básicas](#overview)
-- [Video](#overview)
+- [📈 Results/ Resultados](#results)
 - [Security worries](#securty_worries)
 - [Stamps considered/Selos Considerados](#stamps)
 - [🚀 Getting Started](#getting-started)
@@ -34,10 +34,22 @@ This is a modular and extensible synthetic data generation library for tabular d
 - Improve model generalization by augmenting training data
 - Enable fair benchmarking via reproducible evaluations (TS-TR and TR-TS)
 - Provide publication-ready metrics and visualizations
+- It supports GPU acceleration, CSV/XLS ingestion, custom CLI scripts, and integration with academic pipelines.
 
-It supports GPU acceleration, CSV/XLS ingestion, custom CLI scripts, and integration with academic pipelines.
 --- 
-  
+
+## 📈 Results / Resultados <a name="results"></a>
+
+This repository contains two folders with results:
+
+[`Results_paper/`](./Results_paper/)  : Contains the subset of results presented in the published paper.
+
+[`Results_full/`](./Results_full/)  : Includes extended/complete results for further exploration.
+
+For reproducibility, refer to the paper for context on the curated results. The full dataset is provided for additional analysis.
+
+ 
+--- 
 
 
 ## Stamps considered <a name="stamps"></a>
