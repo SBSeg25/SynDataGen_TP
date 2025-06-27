@@ -92,12 +92,15 @@ SAVE_DATA = 'True'  # Flag to indicate if synthetic/generated data should be sav
 # DATASETS PATH LIST
 # ========================
 
+
 datasets = [
     'Datasets/SBSeg_2025/reduced_balanced_androcrawl.csv',
-
+    'Datasets/SBSeg_2025/reduced_balanced_adroit.csv',
+    'Datasets/SBSeg_2025/reduced_balanced_android_permissions.csv',
+    'Datasets/SBSeg_2025/reduced_balanced_drebin215.csv',
+    'Datasets/SBSeg_2025/reduced_balanced_kronodroid_emulator.csv',
+    'Datasets/SBSeg_2025/reduced_balanced_kronodroid_real_device.csv'
 ]
-
-
 
 # ========================
 # CAMPAIGN DEFINITIONS
