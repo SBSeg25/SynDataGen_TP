@@ -1,25 +1,9 @@
-[![ml-intro](Layout/layout.png)]()
-
-<div align="center">
-  <img src="https://img.shields.io/badge/status-active-success.svg" />
-  <img src="https://img.shields.io/badge/python-3.8+-blue.svg" />
-  <img src="https://img.shields.io/badge/GPU-Supported-brightgreen.svg" />
-  <img src="https://img.shields.io/badge/docs-API_Reference-blue.svg" />
-  <img src="https://img.shields.io/badge/license-MIT-blue.svg" />
-  <img src="https://img.shields.io/badge/open%20source-yes-green.svg" />
-  <div>
-    <img src="https://img.shields.io/github/stars/kayua/SynDataGen.svg?style=social" />
-    <img src="https://img.shields.io/github/forks/kayua/SynDataGen.svg?style=social" />
-    <a href="https://github.com/kayua/SynDataGen/actions?query=branch%3Amain">
-      <img src="https://github.com/kayua/SynDataGen/actions/workflows/release.yml/badge.svg?branch=main" />
-    </a>
-  </div>
-</div>
 
 
-# 🌊 MalDataGen - v.1.0.0 (Jellyfish 🪼)
 
-MalDataGen is an advanced Python framework for generating and evaluating synthetic tabular datasets using modern generative models, including diffusion and adversarial architectures. Designed for researchers and practitioners, it provides reproducible pipelines, fine-grained control over model configuration, and integrated evaluation metrics for realistic data synthesis.
+# 🌊 SynDataGen: An Open-Source Library for Generating Synthetic Tabular Data
+
+This repository contains the official implementation of SynDataGen, an open-source library for generating high-quality synthetic tabular data. Our work has been submitted to SBSeg 2025, and we invite researchers and practitioners to explore, use, and contribute to this project.
 
 ---
 
@@ -44,7 +28,7 @@ MalDataGen is an advanced Python framework for generating and evaluating synthet
 
 ## 📖 Overview /Informações básicas <a name="overview"></a>
 
-Synthetic Ocean is a modular and extensible synthetic data generation library for tabular domains. It aims to:
+This is a modular and extensible synthetic data generation library for tabular domains. It aims to:
 
 - Support state-of-the-art generative models (GANs, VAEs, Diffusion, etc.)
 - Improve model generalization by augmenting training data
@@ -53,12 +37,7 @@ Synthetic Ocean is a modular and extensible synthetic data generation library fo
 
 It supports GPU acceleration, CSV/XLS ingestion, custom CLI scripts, and integration with academic pipelines.
 --- 
-## 📖 Video <a name="Video"></a>
-The following link showcases a video of a demonstration of the tool: https://drive.google.com/file/d/1sbPZ1x5Np6zolhFvCBWoMzqNqrthlUe3/view?usp=sharing
-
-if that doesn't work we have a backup on: https://youtu.be/t-AZtsLJUlQ
-
----
+  
 
 
 ## Stamps considered <a name="stamps"></a>
@@ -87,8 +66,8 @@ We provide instructions for the installation, execution, and reproduction of the
 
 ```bash
 pip install virtualenv
-python3 -m venv ~/Python3venv/MalDataGen
-source ~/Python3venv/MalDataGen/bin/activate
+python3 -m venv ~/Python3venv/SynDataGen_TP
+source ~/Python3venv/SynDataGen_TP/bin/activate
 ```
 
 ---
@@ -96,8 +75,8 @@ source ~/Python3venv/MalDataGen/bin/activate
 ## ⚙️ Installation <a name="installation"></a>
 
 ```bash
-git clone https://github.com/SBSeg25/MalDataGen.git
-cd MalDataGen
+git clone https://github.com/SBSeg25/SynDataGen_TP.git
+cd SynDataGen_TP
 pip install --upgrade pip
 pip install -r requirements.txt
 # or
@@ -131,7 +110,7 @@ In order to reproduce the results from the paper execute the comand below, the e
 
 ```bash
 # Run all experiments from the paper
-python3 run_campaign_sbseg.py 
+python3 run_campaign_sbseg.py  
 ```
 
 Or to execute with docker:
